@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Availability Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">LIVE TEAM DASHBOARD</p>
+        <h1>Team Availability Tracker</h1>
+        <p>View and update team member availability in real time.</p>
+      </div>
+      <div class="live"><span></span> Live</div>
+    </header>
+
+    <section class="summary">
+      <div class="stat"><strong id="total">0</strong><span>Total Members</span></div>
+      <div class="stat available"><strong id="available">0</strong><span>Available</span></div>
+      <div class="stat busy"><strong id="busy">0</strong><span>Busy</span></div>
+      <div class="stat away"><strong id="away">0</strong><span>Away</span></div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Team Members</h2>
+        <small>Auto-refresh: 3 seconds</small>
+      </div>
+      <div id="team" class="team-grid"></div>
+    </section>
+
+    <p id="message" class="message"></p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

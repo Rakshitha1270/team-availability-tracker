@@ -1,0 +1,13 @@
+{
+  "name": "team-availability-tracker",
+  "version": "1.0.0",
+  "description": "Real-time team availability dashboard with REST API and SQLite storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  }
+}
